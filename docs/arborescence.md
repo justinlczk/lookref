@@ -4,6 +4,10 @@
 
 Liste de tenues par theme et option de recherche avancée
 
+## Les tenues
+
+La page pour une tenue avec le détail de cette dernière
+
 ## Rechercher
 
 Permet de rechercher une tenue par style, prix, saison ou encore par couleurs
