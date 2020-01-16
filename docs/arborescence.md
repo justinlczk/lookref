@@ -38,4 +38,3 @@ Page de présentation de notre instagram, qui servirait à reposter les photos d
 
 Page de présentation de notre service
 
-*XMind: ZEN - Trial Version*
