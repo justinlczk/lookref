@@ -3,16 +3,18 @@ header{
     flex-direction: column;
 }
 
-.navigation_container
-{top: 0px;
-left: 0px;
-width: 1920px;
-height: 123px;
-background: #6980C5 0% 0% no-repeat padding-box;
-display: flex;
-flex-direction: row;
+.navigation_container{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 123px;
+    background: #6980C5 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: row;
 }
-h1{top: 35px;
+
+h1 {
+    top: 35px;
     left: 154px;
     width: 180px;
     height: 53px;
@@ -20,9 +22,11 @@ h1{top: 35px;
     font: Regular 45px/54px Helvetica Neue;
     letter-spacing: 0;
     color: #F7F7EE;
-    opacity: 1;}
+    opacity: 1;
+}
 
-    .navigation_container__Menus {top: 45px;
+.navigation_container__Menus {
+    top: 45px;
     left: 893px;
     width: 98px;
     height: 33px;
@@ -33,6 +37,4 @@ h1{top: 35px;
     opacity: 1;
     display: flex;
     flex-direction: row;
-
-
     }
