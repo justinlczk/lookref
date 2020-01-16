@@ -1,10 +1,38 @@
-nav { 
+header{
     display: flex;
-    flex-direction: row;  
+    flex-direction: column;
+}
 
+.navigation_container
+{top: 0px;
+left: 0px;
+width: 1920px;
+height: 123px;
+background: #6980C5 0% 0% no-repeat padding-box;
+display: flex;
+flex-direction: row;
 }
-.contenairMenus {
-    display:  flex;
-    flex-direction: row ;
-    align-content: center;
-}
+h1{top: 35px;
+    left: 154px;
+    width: 180px;
+    height: 53px;
+    text-align: center;
+    font: Regular 45px/54px Helvetica Neue;
+    letter-spacing: 0;
+    color: #F7F7EE;
+    opacity: 1;}
+
+    .navigation_container__Menus {top: 45px;
+    left: 893px;
+    width: 98px;
+    height: 33px;
+    text-align: left;
+    font: Bold 28px/34px Helvetica Neue;
+    letter-spacing: 0;
+    color: #70DFDF;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+
+
+    }
