@@ -6,7 +6,7 @@ header {
 .navigation_container {
     top: 0px;
     left: 0px;
-    width: 1920px;
+    width: 100vw;
     height: 123px;
     background: #6980C5 0% 0% no-repeat padding-box;
     display: flex;
@@ -19,7 +19,8 @@ h1 {
     width: 180px;
     height: 53px;
     text-align: center;
-    font: Regular 45px/54px Helvetica Neue;
+    font: Regular 45px/54px; 
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
     color: #F7F7EE;
     opacity: 1;
@@ -38,3 +39,15 @@ h1 {
     display: flex;
     flex-direction: row;
     }
+.navigation_container__Menus ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between,space-around;
+}
+.navigation_container{
+    top: 27px;
+    left: 57px;
+    width: 68px;
+    height: 69px;
+    background: #F7F6EE 0% 0% no-repeat padding-box;
+    opacity: 1;}
