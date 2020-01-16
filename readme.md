@@ -17,3 +17,6 @@ Les fonctionnalités :
 - Notations
 - commentaires
 - Espace sponsorisé
+
+
+trello : https://trello.com/invite/b/UnB70i6n/9cbad6e316b557b123a03c540d84f072/projet-javascript-cnam-lokref
