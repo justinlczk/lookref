@@ -1,9 +1,9 @@
-header{
+header {
     display: flex;
     flex-direction: column;
 }
 
-.navigation_container{
+.navigation_container {
     top: 0px;
     left: 0px;
     width: 1920px;
