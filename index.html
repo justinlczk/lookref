@@ -1,98 +1,170 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Look Ref</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+    <link href="library/fontawesome/css/all.css" rel="stylesheet">
+    <script defer src="library/fontawesome/js/all.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    <nav class="navigation_container">
-        <div class="container__name">
-                <h1>look ref</h1>
-        </div>
-        <div class="container_Menus">
-        <ul>
-            <li>
-                    <a href="#"> Accueil</a>
-            </li>
-            <li>
-                    <a href="#"> Tenues</a>               
-            </li>
-            <li>
-                    <a href="#"> Proposer</a>               
-            </li>
-            <li>
-                    <a href="#"> Poster</a>                
-            </li>
-            <li>
-                    <a href="#"> Contact</a>
-            </li>
 
-        </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="menu">
+            <div class="menu__logo_home">
+                <a href="index.html">
+                    <img src="images-contenus/logo.svg" alt="Logo Look Ref">
+                    <h1>Look Ref</h1>
+                </a>
 
+                <div class="menu__links">
+                    <div class="menu__site_links">
+                        <a href="#">Accueil</a>
+                        <a href="#">Tenues</a>
+                        <a href="#">Proposer</a>
+                        <a href="#">Poster</a>
+                        <a href="#">Contact</a>
 
-    <main class="main__container" >
-        <div class="feature_container">
-            <div class ="feature__main">
+                        <a href="#" class="menu__search"><i class="fas fa-search icon"></i></a>
+                    </div>
 
+                    <hr class="menu__bar">
 
+                    <div class="menu__social_media">
+                        <a href="#"><i class="fab fa-facebook-messenger icon"></i></a>
+                        <a href="#"><i class="fab fa-instagram icon"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square icon"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="feature_container__allItems">
-                    <div class = "feature_container__item">
+        </nav>
 
-                    </div>
-                    <div class = "feature_container__item">
+        <div class="carousel">
+            <div class="carousel__slide">
+                <div class="carousel__img">
+                    <img src="images-contenus/" alt="">
+                </div>
 
-                    </div>
-                    <div class = "feature_container__item">
+                <div class="carousel__content">
+                    <h2 class="blue_txt">Le look du jour</h2>
+                    <p class="blue_txt">
+                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                        impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500,
+                        quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
+                        spécimen de polices de texte.
+                    </p>
 
-                    </div>
-                    <div class = "feature_container__item">
-
-                    </div>
-                    <div class="feature_container__text">
-                        <p>
-
-
-                        </p>
-
-                    </div>
-                    <div class="feature_container__buton" id="1">
-
-                    </div class="feature_container__buton" id="2">
-                    <div>
-
+                    <div class="carousel__content_img">
+                        <a href="#"><img src="images-contenus" alt=""></a>
+                        <a href="#"><img src="images-contenus" alt=""></a>
+                        <a href="#"><img src="images-contenus" alt=""></a>
+                        <a href="#"><img src="images-contenus" alt=""></a>
                     </div>
 
-
+                    <div class="carousel__content_buttons">
+                        <a href="#" class="button purple bold">Liens d'achats</a>
+                        <a href="#" class="button blue">Voir plus</a>
+                    </div>
+                </div>
             </div>
 
+            <div class="carousel__buttons">
+                <button class="carousel__buttons_previous"><img src="images-contenus/" alt=""></button>
+                <button class="carousel__buttons_next"><img src="images-contenus/" alt=""></button>
+            </div>
         </div>
+    </header>
 
-    </main>
+    <div class="content">
+        <section>
+            <h2>Les derniers looks</h2>
+
+            <div class="section__list">
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+
+                <div class="section__list_item">
+                    <img class="item__image" src="images-contenus/" alt="tenue">
+                    <span class="item__price">178,50€</span>
+                    <span class="item__description">Classique</span>
+                </div>
+            </div>
+
+            <a class="button purple bold" href="#">Voir plus</a>
+        </section>
+    </div>
 
     <footer>
-        <div>
-            <h3>Qui somme nous ?</h3>
-            <p>
-                <ul>
-                    <li><a href="http://justinluczak.com/">  concepte original de Justin  </a> </li>
-                    <li>idée original de jordan , justin arnaud </li>
-                    <li><a href="https://lecnam.net/">Projet fait dans le cadre du CNAM</a> </li>
-                </ul>
-            </p>
+        <div class="footer__social_links">
+            <a href="#"><i class="fab fa-facebook-messenger icon"></i></a>
+            <a href="#"><i class="fab fa-instagram icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-square icon"></i></a>
         </div>
-        <div>
-            <h3>Que fessont nous ?</h3>
-            <p>
-                
-            </p>
+
+        <div class="footer__site_map">
+            <!-- Emplacement pour les liens vers les différentes pages du site -->
         </div>
     </footer>
+
+
 </body>
+
 </html>
