@@ -7,36 +7,41 @@
     --borderRadius: 33px;
 }
 
-
-
 .menu{
-display: flex;
-/* justify-content: space-between; */
-top: 0px;
-/* left: 0px;
-width: 1920px;
-height: 123px; */
-background: #6980C5 0% 0% no-repeat }
-
-
-
-.menu__logo_home
+    
+        display: flex;
+        justify-content: space-between; 
+        top: 0px;
+        left: 0px;
+        height: 123px; 
+        background-color: var(--mainColor);
+}
+ .menu__logo_home
 {
-display: flex;
-top: 35px;
-left: 154px;
-width: 180px;
-height: 53px;
-/* text-align: center; */
-font: Regular 45px/54px Helvetica Neue;
-letter-spacing: 0;
-color: #F7F7EE;
-opacity: 1;}
-.menu__site_links
+        display: flex;
+        top: 35px;
+        left: 154px;
+        width: 180px;
+        height: 53px;
+        /* text-align: center; */
+        font: Regular 45px/54px Helvetica Neue;
+        letter-spacing: 0;
+        color: #F7F7EE;
+        opacity: 1;
+}
+.menu__links
 {
     display: flex;
+    justify-content: space-around;
+    
 }
-.menu__bar{
-    rotate: 90;
+menu__bar{
+    /* transform: rotate(90deg); */
 
+} 
+
+menu__social_media
+{
+    display: flex;
+    justify-content: space-around;
 } 
