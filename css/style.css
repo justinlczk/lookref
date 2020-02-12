@@ -6,4 +6,37 @@
     --shadow: 0px 3px 6px #00000029;
     --borderRadius: 33px;
 }
-test
+
+
+
+.menu{
+display: flex;
+/* justify-content: space-between; */
+top: 0px;
+/* left: 0px;
+width: 1920px;
+height: 123px; */
+background: #6980C5 0% 0% no-repeat }
+
+
+
+.menu__logo_home
+{
+display: flex;
+top: 35px;
+left: 154px;
+width: 180px;
+height: 53px;
+/* text-align: center; */
+font: Regular 45px/54px Helvetica Neue;
+letter-spacing: 0;
+color: #F7F7EE;
+opacity: 1;}
+.menu__site_links
+{
+    display: flex;
+}
+.menu__bar{
+    rotate: 90;
+
+} 
