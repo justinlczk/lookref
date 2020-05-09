@@ -82,6 +82,7 @@ a {
 
 .carousel__img, .carousel__img img {
     height: 50vh;
+    border-radius: 20px;
 }
 
 .carousel__slide {
