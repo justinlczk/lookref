@@ -1,14 +1,214 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Look Ref</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap" rel="stylesheet">
+    <link href="library/fontawesome/css/all.css" rel="stylesheet">
+    <script defer src="library/fontawesome/js/all.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>LookRef</h1>
-    <p>hello wolrd</p>
+
+    <header>
+        <nav class="menu flex">
+            <div class="menu__logo_home">
+                <a class="flex" href="index.html">
+                    <img class="logo_home__img mr20" src="images-contenus/logo_lr.svg" alt="Logo Look Ref">
+                    <h1>Look Ref</h1>
+                </a>
+            </div>
+            <div class="menu__links flex">
+                <div class="menu__site_links">
+                    <a class="mr20 active_link" href="index.html">Accueil</a>
+                    <a class="mr20" href="tenue.html">Tenues</a>
+                    <a class="mr20" href="proposition.html">Proposer</a class="mr20">
+                    <a class="mr20" href="poster.html">Poster</a>
+                    <a class="mr20" href="contact.html">Contact</a>
+
+                    <a href="search.html" class="menu__search mr20"><i class="fas fa-search icon"></i></a>
+                </div>
+
+                <hr class="menu__bar mr20">
+
+                <div class="menu__social_media flex">
+                    <a href="#"><i class="fab fa-facebook-messenger icon mr20"></i></a>
+                    <a href="#"><i class="fab fa-instagram icon mr20"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square icon mr20"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="carousel">
+            <div class="carousel__slide">
+                <div class="carousel__img shadow">
+                    <img src="images-contenus/tenue.png" alt="">
+                </div>
+
+                <div class="carousel__content">
+                    <h2 class="blue_txt">Le look du jour</h2>
+                    <p class="blue_txt italic_txt">
+                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant
+                        impression. Le Lorem Ipsum est le faux texte standard de l’imprimerie depuis les années 1500,
+                        quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
+                        spécimen de polices de texte.
+                    </p>
+
+                    <div class="carousel__content_img">
+                        <div class="carousel__box_img shadow"><a href="#"><img src="images-contenus/veste.jpg" alt=""></a></div>
+                        <div class="carousel__box_img shadow"><a href="#"><img src="images-contenus/haut.jpg" alt=""></a></div>
+                        <div class="carousel__box_img shadow"><a href="#"><img src="images-contenus/sac.jpg" alt=""></a></div>
+                        <div class="carousel__box_img shadow"><a href="#"><img src="images-contenus/escarpin.jpg" alt=""></a></div>
+                    </div>
+
+                    <div class="carousel__content_buttons">
+                        <a href="#" class="button purple bold shadow">Liens d'achats</a>
+                        <a href="#" class="button blue shadow">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel__buttons">
+                <div class="carousel__buttons_previous"><img src="images-contenus/left.svg" alt=""></div>
+                <div class="carousel__buttons_next"><img src="images-contenus/right.svg" alt=""></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <section>
+            <h2 class="white_txt">Les derniers looks</h2>
+
+            <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+
+                <div class="section__list">
+                <div class="section__list_item">
+                    <div class="img_container">
+                        <img class="item__image" src="images-contenus/tenue.png" alt="tenue">
+                        <a href="tenue_single.html" class="item__description">Voir plus</a>
+                    </div>
+                    <p class="item__price">178,50€</p>
+                </div>
+                </div>
+            </div>
+
+            <a class="button purple bold" href="#">Voir plus</a>
+        </section>
+    </div>
+
+    <footer>
+        <h2 class="blue_txt">Plan du site</h2>
+        <div class="footer__site_map">
+            <a href="#">Accueil</a>
+            <a href="#">Tenu du jour</a>
+            <a href="#">Proposer</a>
+            <a href="#">Poster</a>
+            <a href="#">Recherche</a>
+            <a href="#">Contact</a>
+            <a href="#">Mentions légales</a>
+        </div>
+
+        <div class="footer__social_links">
+            <a href="#"><i class="fab fa-facebook-messenger icon"></i></a>
+            <a href="#"><i class="fab fa-instagram icon"></i></a>
+            <a href="#"><i class="fab fa-facebook-square icon"></i></a>
+        </div>
+    </footer>
+
+
 </body>
+<script src="assets/scripts/apiPexel.js"></script>
 </html>
