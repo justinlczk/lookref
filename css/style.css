@@ -12,6 +12,10 @@
     color: var(--darkColor);
 }
 
+.lightblue_txt {
+    color: var(--secondaryColor);
+}
+
 body {
     margin: 0;
     font-family: var(--mainPolice);
@@ -351,4 +355,12 @@ footer h2 {
     font-size: 15px;
     border-radius: 40px;
     justify-self: right;
+}
+
+section h2  {
+    margin-top: 150px;
+}
+
+.content section:nth-child(1) h2  {
+    margin-top: 80px;
 }
